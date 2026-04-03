@@ -1,0 +1,41 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+const siteUrl = "https://example.com";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
+  title: "AI 모델 얼굴 프롬프트 브리프 생성기 | 한글로 쉽게 만드는 고퀄 얼굴 설정",
+  description:
+    "원하는 얼굴 인상과 외형을 한글로 선택하고, ChatGPT와 flow의 nano banana pro에 활용할 수 있는 AI 모델 얼굴 프롬프트 브리프를 쉽게 만들어보세요.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "AI 모델 얼굴 프롬프트 브리프 생성기",
+    description:
+      "한글로 외형을 선택하고 AI 모델 얼굴 브리프를 생성하세요.",
+    url: siteUrl,
+    siteName: "AI Face Brief Generator",
+    locale: "ko_KR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI 모델 얼굴 프롬프트 브리프 생성기",
+    description:
+      "한글로 외형을 선택하고 AI 모델 얼굴 브리프를 생성하세요.",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="ko">
+      <body className="bg-neutral-50 text-neutral-900">{children}</body>
+    </html>
+  );
+}
