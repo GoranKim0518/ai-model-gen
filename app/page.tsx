@@ -69,7 +69,16 @@ export default function HomePage() {
           </h1>
           <p className="mt-4 max-w-2xl text-sm leading-6 text-neutral-600 md:text-base">
             원하는 얼굴을 한글로 고르고 복사만 하세요. 생성된 문장을 ChatGPT에
-            붙여넣으면 flow의 nano banana pro용 영어 프롬프트로 바꿔 쓸 수
+            붙여넣으면{" "}
+            <a
+              href="https://labs.google/fx/tools/flow"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-extrabold underline underline-offset-2 hover:text-neutral-900"
+            >
+              Google Flow
+            </a>
+            의 nano banana pro에서 사용할 수 있는 영어 프롬프트로 바꿔 쓸 수
             있습니다.
           </p>
         </div>
@@ -81,7 +90,13 @@ export default function HomePage() {
           <ol className="mt-4 list-decimal space-y-2 pl-5 text-sm text-neutral-700">
             <li>원하는 외형을 선택하세요.</li>
             <li>생성된 문장을 ChatGPT에 붙여넣으세요.</li>
-            <li>나온 영어 프롬프트를 flow에 넣으세요.</li>
+            <li>나온 영어 프롬프트를 
+              <a href="https://labs.google/fx/tools/flow"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-extrabold underline underline-offset-2 hover:text-neutral-900"> Google Flow(나노 바나나 프로 모델)
+              </a>에 넣으세요.
+            </li>
           </ol>
         </section>
 
