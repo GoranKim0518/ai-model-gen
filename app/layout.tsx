@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  verification: {
+    google: "9mPI4iaZWCnXOa_sUT_9t2ZWxT7WJ4NEOTWsEg3NF2I",
+  },
   openGraph: {
     title: "AI 모델 얼굴 프롬프트 브리프 생성기",
     description:
