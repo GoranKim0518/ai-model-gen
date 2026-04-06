@@ -6,7 +6,7 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "AI 모델 얼굴 프롬프트 브리프 생성기",
-    url: "https://example.com",
+  url: "https://ai-model-gen-lac.vercel.app",
     inLanguage: "ko-KR",
   };
 
@@ -19,7 +19,7 @@ export default function HomePage() {
     inLanguage: "ko-KR",
     description:
       "한글로 외형을 선택하고 AI 모델 얼굴 프롬프트 브리프를 생성하는 웹 도구",
-    url: "https://example.com",
+  url: "https://ai-model-gen-lac.vercel.app",
   };
 
   const faqJsonLd = {
@@ -65,10 +65,10 @@ export default function HomePage() {
             AI Model Face Brief Generator
           </p>
           <h1 className="text-3xl font-bold tracking-tight md:text-5xl">
-            AI 모델 얼굴 프롬프트 브리프 생성기
+            AI 모델 얼굴 프롬프트 생성기
           </h1>
           <p className="mt-4 max-w-2xl text-sm leading-6 text-neutral-600 md:text-base">
-            원하는 얼굴을 한글로 고르고 복사만 하세요. 생성된 문장을 ChatGPT에
+            원하는 외형을 선택한 뒤, 생성 결과를 ChatGPT에
             붙여넣으면{" "}
             <a
               href="https://labs.google/fx/tools/flow"
@@ -78,8 +78,7 @@ export default function HomePage() {
             >
               Google Flow
             </a>
-            의 nano banana pro에서 사용할 수 있는 영어 프롬프트로 바꿔 쓸 수
-            있습니다.
+            의 nano banana pro에서 사용할 수 있는 영어 프롬프트가 출력됩니다.
           </p>
         </div>
 
@@ -104,7 +103,7 @@ export default function HomePage() {
           <h2 className="text-xl font-semibold">자주 묻는 질문</h2>
           <div className="mt-4 space-y-4 text-sm text-neutral-700">
             <div>
-              <h3 className="font-medium text-neutral-900">
+              <h3 className="font-bold text-neutral-900">
                 초보자도 사용할 수 있나요?
               </h3>
               <p className="mt-1">
@@ -112,7 +111,7 @@ export default function HomePage() {
               </p>
             </div>
             <div>
-              <h3 className="font-medium text-neutral-900">
+              <h3 className="font-bold text-neutral-900">
                 쉬운 모드와 전문가 모드 차이는 무엇인가요?
               </h3>
               <p className="mt-1">
@@ -121,7 +120,7 @@ export default function HomePage() {
               </p>
             </div>
             <div>
-              <h3 className="font-medium text-neutral-900">
+              <h3 className="font-bold text-neutral-900">
                 결과가 마음에 안 들면 어떻게 하나요?
               </h3>
               <p className="mt-1">

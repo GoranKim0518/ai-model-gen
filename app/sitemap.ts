@@ -2,7 +2,8 @@ import type { MetadataRoute } from "next";
 import { landingPages } from "@/lib/landing-pages";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://example.com";
+  // normalized without trailing slash to avoid duplicate slashes when joining routes
+  const baseUrl = "https://ai-model-gen-lac.vercel.app";
 
   const staticRoutes = ["", "/contact", "/privacy", "/terms"].map((route) => ({
     url: `${baseUrl}${route}`,

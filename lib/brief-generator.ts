@@ -15,7 +15,7 @@ type FormState = {
 };
 
 const fixedLine =
-  "이 내용을 flow의 nano banana pro에 최적화된 영어 프롬프트로 리턴해 줘. 얼굴 인상, 이목구비, 피부 질감, 얼굴 퀄리티를 신경써 줘. 영어로만 출력해줘.";
+  "이 내용을 flow의 nano banana pro에 최적화된 영어 프롬프트로 변환해 줘. 얼굴 인상, 이목구비, 피부 질감, 얼굴 퀄리티를 신경써 주고, 영어로만 출력해줘.";
 
 export function generateBrief(data: FormState) {
   const lines = [

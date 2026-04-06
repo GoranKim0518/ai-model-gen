@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteUrl = "https://example.com";
+// normalized without trailing slash to avoid double slashes when concatenating paths
+const siteUrl = "https://ai-model-gen-lac.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

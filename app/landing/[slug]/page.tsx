@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: page.title,
       description: page.description,
-      url: `https://example.com/landing/${page.slug}`,
+  url: `https://ai-model-gen-lac.vercel.app/landing/${page.slug}`,
       locale: "ko_KR",
       type: "article",
     },
