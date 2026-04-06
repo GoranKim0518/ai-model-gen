@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "naver-site-verification": process.env.NAVER_SITE_VERIFICATION ?? "",
   },
   openGraph: {
-    title: "AI 모델 얼굴 프롬프트 생성기",
+    title: "AI 모델 프롬프트 생성기",
     description:
       "외형을 선택하고 AI 모델을 생성하세요.",
     url: siteUrl,

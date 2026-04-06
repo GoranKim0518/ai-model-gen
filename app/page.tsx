@@ -75,7 +75,7 @@ export default function HomePage() {
             >
               Google Flow
             </a>
-            의 nano banana pro에서 사용할 수 있는 영어 프롬프트가 출력됩니다.
+            의 나노 바나나 프로에서 사용할 수 있는 영어 프롬프트가 출력됩니다.
           </p>
         </div>
 
