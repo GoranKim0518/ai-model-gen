@@ -13,7 +13,10 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   verification: {
-    google: process.env.GOOGLE_SITE_VERIFICATION,
+    google: process.env.GOOGLE_SITE_VERIFICATION ?? "",
+  },
+  other: {
+    "naver-site-verification": process.env.NAVER_SITE_VERIFICATION ?? "",
   },
   openGraph: {
     title: "AI 모델 얼굴 프롬프트 브리프 생성기",
