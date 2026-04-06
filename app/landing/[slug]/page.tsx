@@ -46,7 +46,7 @@ export default async function LandingPage({ params }: Props) {
         name: "이 페이지로 무엇을 할 수 있나요?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "이 페이지는 특정 얼굴 스타일 관련 검색 유입을 위한 페이지이며, 실제 생성은 홈의 생성기에서 바로 진행할 수 있습니다.",
+          text: "이 페이지는 클릭 몇 번만으로 간단히 AI 모델을 생성할 수 있는 서비스를 제공합니다.",
         },
       },
       {
@@ -54,7 +54,7 @@ export default async function LandingPage({ params }: Props) {
         name: "영어 프롬프트를 바로 생성하나요?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "아니요. 먼저 한글 브리프를 만든 뒤 ChatGPT에 붙여넣어 영어 프롬프트로 변환하는 방식입니다.",
+          text: "아니요. 먼저 선택한 한글 키워드를 조합하고, ChatGPT에 붙여 넣어 영어 프롬프트로 변환하는 방식입니다.",
         },
       },
     ],
@@ -74,7 +74,7 @@ export default async function LandingPage({ params }: Props) {
         <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-neutral-700">
           <li>영어 프롬프트를 직접 쓰기 어려운 분</li>
           <li>얼굴 인상과 이목구비를 중심으로 결과를 만들고 싶은 분</li>
-          <li>ChatGPT와 flow를 함께 활용하는 작업 흐름을 원하는 분</li>
+          <li>챗 지피티와 flow를 함께 활용하는 작업 흐름을 원하는 분</li>
         </ul>
       </div>
 

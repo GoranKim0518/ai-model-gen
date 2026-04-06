@@ -5,7 +5,7 @@ export default function HomePage() {
   const websiteJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "AI 모델 얼굴 프롬프트 브리프 생성기",
+    name: "AI 모델 프롬프트 생성기",
   url: "https://ai-model-gen-lac.vercel.app",
     inLanguage: "ko-KR",
   };
@@ -13,12 +13,12 @@ export default function HomePage() {
   const appJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    name: "AI 모델 얼굴 프롬프트 브리프 생성기",
+    name: "AI 모델 프롬프트 생성기",
     applicationCategory: "DesignApplication",
     operatingSystem: "Web",
     inLanguage: "ko-KR",
     description:
-      "한글로 외형을 선택하고 AI 모델 얼굴 프롬프트 브리프를 생성하는 웹 도구",
+      "클릭 몇 번으로 AI 모델 프롬프트를 생성하는 웹 서비스",
   url: "https://ai-model-gen-lac.vercel.app",
   };
 
@@ -61,11 +61,8 @@ export default function HomePage() {
 
       <section className="mx-auto max-w-5xl px-4 py-10 md:px-6 md:py-16">
         <div className="mb-8">
-          <p className="mb-3 inline-block rounded-full bg-black px-3 py-1 text-xs font-medium text-white">
-            AI Model Face Brief Generator
-          </p>
           <h1 className="text-3xl font-bold tracking-tight md:text-5xl">
-            AI 모델 얼굴 프롬프트 생성기
+            AI 모델 프롬프트 생성기
           </h1>
           <p className="mt-4 max-w-2xl text-sm leading-6 text-neutral-600 md:text-base">
             원하는 외형을 선택한 뒤, 생성 결과를 ChatGPT에
