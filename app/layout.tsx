@@ -43,7 +43,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className="bg-neutral-50 text-neutral-900">{children}</body>
+      <body className="bg-neutral-50 text-neutral-900">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
